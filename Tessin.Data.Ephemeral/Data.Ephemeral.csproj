@@ -8,6 +8,7 @@
     <PackageId>Tessin.Data.Ephemeral</PackageId>
     <Description>Ephemeral SQL databases, bootstrapping and cleanup of MSSQLLocalDB or SQLEXPRESS</Description>
     <PackageTags>SqlServer</PackageTags>
+    <PackageProjectUrl>https://github.com/tessin/tessin-data-ephemeral</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
