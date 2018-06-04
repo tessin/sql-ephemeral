@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <Authors>Tessin Nordic AB</Authors>
+    <AssemblyName>Tessin.Data.Ephemeral</AssemblyName>
+    <RootNamespace>Tessin.Data.Ephemeral</RootNamespace>
+    <PackageId>Tessin.Data.Ephemeral</PackageId>
+    <Description>Ephemeral SQL databases, bootstrapping and cleanup of MSSQLLocalDB or SQLEXPRESS</Description>
+    <PackageTags>SqlServer</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestFramework" Version="1.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Security" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Ephemeral", "Tessin.Data.Ephemeral\Data.Ephemeral.csproj", "{866790B9-69FB-44E8-A4F2-BC20A58CEE6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Ephemeral.UnitTestProject", "Tessin.Data.Ephemeral.UnitTestProject\Data.Ephemeral.UnitTestProject.csproj", "{B83F01DB-0D51-43C4-B92C-AE862904DA0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{866790B9-69FB-44E8-A4F2-BC20A58CEE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866790B9-69FB-44E8-A4F2-BC20A58CEE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866790B9-69FB-44E8-A4F2-BC20A58CEE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866790B9-69FB-44E8-A4F2-BC20A58CEE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83F01DB-0D51-43C4-B92C-AE862904DA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83F01DB-0D51-43C4-B92C-AE862904DA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83F01DB-0D51-43C4-B92C-AE862904DA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83F01DB-0D51-43C4-B92C-AE862904DA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C26DBF20-CE2C-472B-A431-0CBEF79F4237}
+	EndGlobalSection
+EndGlobal
