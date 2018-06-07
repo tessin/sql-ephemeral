@@ -110,7 +110,7 @@ log on (
             {
                 conn.Open();
 
-                conn.ChangeDatabase(databaseName);
+                conn.ChangeDatabase(databaseName); // todo: this line can throw then the database file has been deleted out side of this process use the SQL Server object explorer to fix this, by dropping the database that way, we could do that as well but that's something for the future
 
                 var cmd2 = new SqlCommand { Connection = conn };
                 cmd2.CommandText = "select * from fn_listextendedproperty(@name, default, default, default, default, default, default)";
